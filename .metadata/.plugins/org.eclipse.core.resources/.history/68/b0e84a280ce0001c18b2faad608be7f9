@@ -1,0 +1,22 @@
+package Lista7;
+import java.util.Scanner;
+public class ex01 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		float[] vetorA = new float[15];
+		float[] vetorB = new float[vetorA.length];
+		float rav1= 0, rav2=0;
+		System.out.println("Digite um numero");
+		vetorA[0] = sc.nextFloat();
+		for(int i = 0; i < vetorA.length; i++) {
+			vetorB[i] = (vetorA[i])*(vetorA[i]);
+			System.out.println("Vetor 1 "+ 	vetorA[i] + " Vetor 2" + vetorB[i]);
+
+			
+		}
+		
+
+	}
+
+}

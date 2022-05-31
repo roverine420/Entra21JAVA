@@ -1,0 +1,17 @@
+package Lista6;
+import java.util.Scanner;
+public class ex06 {
+
+	public static void main(String[] args) {
+		Scanner tc = new Scanner(System.in);
+		double chico = 1.50;
+		double juca = 1.10;
+		
+		for(int i=0; i< chico; i++) {
+			int ano = i*360;
+			System.out.println(i);
+			
+		}
+	}
+
+}

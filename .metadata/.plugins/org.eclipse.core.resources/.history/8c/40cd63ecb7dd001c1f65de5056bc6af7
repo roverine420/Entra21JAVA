@@ -1,0 +1,17 @@
+package Lista7;
+
+public class ex01 {
+
+	public static void main(String[] args) {
+		float[] var1 = new float[15];
+		float[] var2 = new float[var1.length];
+		float rav1= 0, rav2=0;
+		
+		for(int i = 1; i <= 15; i++) {
+			var2[i] += var1[i]*var1[i];
+		}
+		System.out.println("Vetor 1"+ var1 + "Vetor 2"+var2);
+
+	}
+
+}

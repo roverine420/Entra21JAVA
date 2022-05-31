@@ -1,0 +1,23 @@
+package Lista7;
+import java.util.Scanner;
+public class ex05 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int vetorA[] = new int[10];
+		int soma = 0;
+		
+		for(int i =0; i < vetorA.length; i++) {
+			System.out.println("Digite um numero");
+			vetorA[i] = sc.nextInt();
+			soma += vetorA[i];
+			if(soma %5 == 0) {
+				System.out.println(vetorA[i]+"É um numero multiplo de 5");
+			}
+			}
+		System.out.println("A soma dos valores é "+ soma);
+		}
+		
+	}
+
+

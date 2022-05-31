@@ -1,0 +1,11 @@
+package Lista6;
+import java.util.Scanner;
+public class ex15 {
+
+	public static void main(String[] args) {
+		Scanner tc = new Scanner(System.in);
+		
+
+	}
+
+}

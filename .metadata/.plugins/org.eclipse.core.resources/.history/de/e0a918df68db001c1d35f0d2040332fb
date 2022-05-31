@@ -1,0 +1,25 @@
+package Lista6;
+import java.util.Scanner;
+public class ex15 {
+
+	public static void main(String[] args) {
+		Scanner tc = new Scanner(System.in);
+		int usuario;
+		int senha;
+		int log_senha;
+		int log_usuario;
+		System.out.printf("Voce ja possui um cadastro? 1-SIM %n 2-NAO");
+		System.out.println("CRIAR CONTA");
+		System.out.println("Nome de usuario");
+		log_usuario = tc.nextInt();
+		System.out.println("Senha");
+		log_senha = tc.nextInt();
+		System.out.println("Faça login com usuario e senha");
+		System.out.println("USUARIO");
+		usuario = tc.nextInt();
+		System.out.println("SENHA");
+		senha = tc.nextInt();
+		
+	}
+
+}
